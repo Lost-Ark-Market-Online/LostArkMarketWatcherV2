@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LostArkMarketWatcherV2", "LostArkMarketWatcherV2.csproj", "{F113C430-970C-428C-A8A7-0AA96D7159A9}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LAMO Setup", "..\LAMO Setup\LAMO Setup.vdproj", "{420D8721-5B6F-489C-A71A-FF7485897892}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F113C430-970C-428C-A8A7-0AA96D7159A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F113C430-970C-428C-A8A7-0AA96D7159A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F113C430-970C-428C-A8A7-0AA96D7159A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F113C430-970C-428C-A8A7-0AA96D7159A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{420D8721-5B6F-489C-A71A-FF7485897892}.Debug|Any CPU.ActiveCfg = Debug
+		{420D8721-5B6F-489C-A71A-FF7485897892}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A956A87-0290-43F7-A487-67B78A5BBFA4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+﻿<Window x:Class="LostArkMarketWatcherV2.windows.login.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LostArkMarketWatcherV2.windows.login"
+        WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d"
+        Title="Login" Height="380" Width="300">
+    <Grid Background="#FF222122">
+        <StackPanel HorizontalAlignment="Center" Width="280" Height="360">
+            <Image Source="/Assets/Icons/favicon.png" Stretch="Fill" Height="100" Width="100" Margin="0,24,0,24"/>
+            <DockPanel HorizontalAlignment="Center" Height="26" VerticalAlignment="Center" Width="220" Margin="0,0,0,24">
+                <Label Content="Email" Foreground="#FFC1A979" Width="80"/>
+                <TextBox x:Name="email_txt" Width="auto" Background="#FF1E2329" Foreground="#FFC1A979" Text=""/>
+            </DockPanel>
+            <DockPanel HorizontalAlignment="Center" Height="26" VerticalAlignment="Center" Width="220" Margin="0,0,0,24">
+                <Label Content="Password" Foreground="#FFC1A979" Width="80"/>
+                <PasswordBox x:Name="password_txt" Width="auto" Background="#FF1E2329" Foreground="#FFC1A979" Password=""/>
+            </DockPanel>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,24">
+                <Button x:Name="cancel_btn" Content="Cancel" Width="80" Background="#FF1E2329" Foreground="#FFC1A979" Click="CancelClick"/>
+                <Button x:Name="login_btn" Content="Login" Width="80" Background="#FF1E2329" Foreground="#FFC1A979" Margin="24,0,0,0" Click="LoginClick"/>
+            </StackPanel>
+            <TextBlock TextDecorations="Underline" Foreground="#FFC1A979" HorizontalAlignment="Center" Margin="0,0,0,8" Visibility="Collapsed">Forgot your password?</TextBlock>
+            <TextBlock TextDecorations="Underline" Foreground="#FFC1A979" HorizontalAlignment="Center" Visibility="Collapsed">Register as a Watcher</TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
+
+    
